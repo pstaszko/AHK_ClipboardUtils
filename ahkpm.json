@@ -12,5 +12,7 @@
     "website": ""
   },
   "scripts": {},
-  "dependencies": {}
+  "dependencies": {
+    "github.com/pstaszko/AHK_Compiler": "branch:main"
+  }
 }
