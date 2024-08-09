@@ -7,7 +7,7 @@
     {
       "name": "github.com/pstaszko/AHK_Compiler",
       "version": "branch:main",
-      "sha": "7534d8c9f2296bc3299e0eb3fe461a32ce5a50cd",
+      "sha": "c9692294607008c95165113685bdc21b85746f5a",
       "installPath": "ahkpm-modules/github.com/pstaszko/AHK_Compiler",
       "dependencies": {}
     }
