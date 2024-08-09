@@ -1,6 +1,5 @@
 #InstallKeybdHook
 #SingleInstance force
-file=%1%
 clipboard:=""
 success:=false
 tooltip Starting
@@ -10,7 +9,7 @@ loop 5 {
 		IfWinNotActive ahk_exe chrome.exe
 			IfWinNotActive ahk_exe brave.exe
 			{
-				ret(file, "")
+				ret("")
 				return
 			}
 	send !d{esc 3}!d^c
@@ -32,13 +31,12 @@ loop 5 {
 if success
 {
 	tooltip
-	ret(file, clipboard)
-	;run % file
+	ret(clipboard)
 } else {
 	tooltip Failed
 	sleep 3000
 }
 ExitApp
-ret(file, text){
+ret(text){
 	FileAppend %text%, *
 }
