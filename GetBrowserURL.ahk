@@ -13,10 +13,7 @@ loop 5 {
 				ret(file, "")
 				return
 			}
-	;sendplay !d{esc 3}!d^x
 	send !d{esc 3}!d^c
-	;SendRaw !d{esc 3}!d^x
-	;SendInput !d{esc 3}!d^x
 	tooltip Starting3
 	ClipWait 1
 	tooltip Starting4
@@ -43,6 +40,5 @@ if success
 }
 ExitApp
 ret(file, text){
-	FileDelete %file%
-	FileAppend %text%, %file%
+	FileAppend %text%, *
 }
