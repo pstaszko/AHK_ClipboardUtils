@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": "1",
+  "dependencies": {
+    "github.com/pstaszko/AHK_Compiler": "branch:main"
+  },
+  "resolved": [
+    {
+      "name": "github.com/pstaszko/AHK_Compiler",
+      "version": "branch:main",
+      "sha": "7534d8c9f2296bc3299e0eb3fe461a32ce5a50cd",
+      "installPath": "ahkpm-modules/github.com/pstaszko/AHK_Compiler",
+      "dependencies": {}
+    }
+  ]
+}
