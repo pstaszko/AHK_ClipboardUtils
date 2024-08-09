@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "repository": "",
+  "website": "",
+  "license": "MIT",
+  "issueTracker": "",
+  "include": "",
+  "author": {
+    "name": "Paul Staszko",
+    "email": "paulstaszko@gmail.com",
+    "website": ""
+  },
+  "scripts": {},
+  "dependencies": {}
+}
